@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JavaScript Number Manipulation</title>
+</head>
+
+<script>
+  var firstNumber=105;
+  var secondNumber=10;
+  document.write("==================<br>")
+  document.write("LEVEL 1 Exercise <br>")
+  document.write("==================<br>")
+  document.write("First Number : "+firstNumber+"<br>")
+  document.write("Second Number  : "+secondNumber+"<br>")
+  document.write("==================<br>")
+  var result=firstNumber+secondNumber
+  document.write("First +  Second Number  : "+result+"<br>")
+  var result=firstNumber*secondNumber
+  document.write("First *  Second Number  : "+result+"<br>")
+  var result=firstNumber/secondNumber
+  document.write("First /  Second Number  : "+result+"<br>")
+  var result=firstNumber-secondNumber
+  document.write("First -  Second Number  : "+result+"<br>")
+  var result=firstNumber%secondNumber
+  document.write("First %  Second Number  : "+result+"<br><br>")
+
+  var firstNumber=-100;
+  var secondNumber=10;
+
+  document.write("==================<br>")
+  document.write("LEVEL 2 Exercise <br>")
+  document.write("==================<br>")
+  document.write("First Number : "+firstNumber+"<br>")
+  document.write("Second Number  : "+secondNumber+"<br>")
+  document.write("==================<br>")
+  var result=firstNumber+secondNumber
+  document.write("First +  Second Number  : "+result+"<br><br>")
+
+  document.write("==================<br>")
+  document.write("LEVEL 3 Exercise <br>")
+
+  var arrayNumber = [1,2,3]
+  document.write("<br><br>")
+  document.write("==================<br>")
+  document.write(" Loop through the original array<br>")
+  document.write("==================<br>")
+
+  var firstNumber=105;
+  var secondNumber=10;
+  document.write("First Number : "+firstNumber+"<br>")
+  document.write("Second Number  : "+secondNumber+"<br>")
+  document.write("==================<br>")
+  var result=firstNumber+secondNumber
+
+
+for (var i in arrayNumber) {
+  document.write(arrayNumber[i]+"<br>");
+}
+document.write("==================<br>")
+document.write(" Loop through the update array value using PUSH method<br>")
+document.write("==================<br>")
+arrayNumber.push("empat","lima","enam");
+for (var i in arrayNumber) {
+  document.write(arrayNumber[i]+"<br>");
+}
+
+document.write("==================<br>")
+document.write(" Loop through the update array value using POP method<br>")
+document.write("==================<br>")
+arrayNumber.pop();
+for (var i in arrayNumber) {
+  document.write(arrayNumber[i]+"<br>");
+}
+</script>
+
+<body>
+
+
+</body>
+</html>
