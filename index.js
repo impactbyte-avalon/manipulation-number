@@ -31,10 +31,27 @@ console.log(angka1 / angka2);
 
 // Level 3.0
 let menuMakanan = ["ketoprak", "lotek", "bakso", "mie ayam"]
-menuMakanan.push('ayam geprek');
+menuMakanan.push('ayam geprek'); // add data into aray menu makanan
 console.log(menuMakanan);
 
 // Level 3.1
+const makanan = [];
+
+function addMakanan() {
+	makanan.push("Martabak", "Kerak Telor", "Nasi Kucing"); // Add data to array "makanan"
+	console.log(makanan);
+}
+
+function removeMakanan() { 
+	makanan.pop(); 							// Remove data last array index of makanan
+	return console.log(makanan);
+}
+
+addMakanan();
+removeMakanan();
+
+
+// Function implement biodata with loop
 
 var bioData = [
     ["Ahmed", "Makan", "lotek"],
@@ -51,3 +68,8 @@ function kumpulanBio(bioData) {
 }
 
 kumpulanBio(bioData);
+
+
+
+
+
