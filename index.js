@@ -1,27 +1,27 @@
 // Level 0
-var num1 = 10
-let num2 = 099
+const num1 = 10
+const num2 = 099
 const num3 = 0.02
 
-console.log(num1 + numb2 + num3);
+console.log(num1 + num2 + num3);
 
 // Level 1
 
-let num1 = 10
-let num2 = 50
+let num4 = 10
+let num5 = 50
 
-console.log(num1 + num2)
-console.log(num1 - num2)
-console.log(num1 * num2)
-console.log(num1 / num2)
-console.log(num1 % num2)
+console.log(num4 + num5)
+console.log(num4 - num5)
+console.log(num4 * num5)
+console.log(num4 / num5)
+console.log(num4 % num5)
 
 // Level 2.0
 let makan = 'saya sedang makan';
 let jumlah = '2 porsi'
-let makanan = 'ketoprak';
+let jajan = 'ketoprak';
 
-console.log(makan + ' ' + jumlah + ' ' + makanan)
+console.log(makan + ' ' + jumlah + ' ' + jajan)
 
 // Level 2.1
 
